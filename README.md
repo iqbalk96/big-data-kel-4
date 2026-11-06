@@ -31,10 +31,7 @@ python -m venv .venv
 # 2. Pasang dependensi
 pip install numpy pandas matplotlib seaborn scipy scikit-learn
 
-# 3. Siapkan folder keluaran grafik (jika belum ada)
-mkdir fig
-
-# 4. Jalankan
+# 3. Jalankan (folder fig/ dibuat otomatis oleh skrip)
 python analisis_svm.py
 ```
 

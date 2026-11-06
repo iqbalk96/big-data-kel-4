@@ -1,6 +1,7 @@
-import json, warnings
+import json, os, warnings
 
 warnings.filterwarnings("ignore")
+os.makedirs("fig", exist_ok=True)
 import numpy as np, pandas as pd
 import matplotlib
 
